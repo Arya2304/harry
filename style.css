@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: fixed;
+    display: contents;
+    padding: 0px 12%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
+.logo a{
+    font-size: 1.3rem;
+}
+.logo a{
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.logo a:hover{
+    color: orangered;
+    text-shadow:0 0 25px orangered,
+                0 0 50px orangered;;
+    transform: scale(1.1);
+}
+
+.span{
+    color: orangered;
+}
+
+.navb{
+    position: sticky;
+}
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+
+.nav{
+    text-decoration: none;
+}
+.navbar a li,
+.navbar li{
+    text-decoration: none;
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    cursor: pointer;
+    list-style: none;
+    margin: 0px 12px;
+}
+
+.navbar a li:hover,
+.navbar a li.active{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+
+.section1{
+    display: inline;
+    max-width: 100vh;
+}
+
+.topleft{
+    align-items:center ;
+    font-family: "Trade Winds", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    width: 50%;
+}
+
+.topleft .broom{
+    height: 45%;
+    width: 50%;
+}
+
+.topright{
+    align-items: center;
+    width: 50%;
+}
+
+.topright .img{
+    width: 65%;
+    height: 45%;
+    box-shadow: 0 0 25px orangered,
+                0 0 50px orangered ;
+}
+
+.section3 h1{
+    font-size: 2rem;
+}
+
+
+.section2{
+    padding: 35px;
+}
+.section3{
+    padding-right: 63px;
+    padding-left: 63px;
+}
+
+.box{
+    margin: 12px 22px;
+    min-width: 23vw;
+    border: 2px solid orangered;
+    box-shadow: 0 0 25px orangered,
+    0 0 50px orangered ;
+    text-align: center;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.box:hover{
+    color: rgb(113, 17, 17);
+    text-shadow:0 0 25px orangered,
+                0 0 50px orangered;;
+    transform: scale(1.1);
+}
+.boxes{
+    overflow-x: auto;    
+}
+
+.section4{
+    padding-right: 63px;
+    padding-left: 63px;
+    margin: 40px 25%;
+}
+
+.section4 li{
+    list-style: circle;
+}
+
+.footer{
+    background-color: rgb(50, 49, 49);
+}
+.copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: orangered;
+}
